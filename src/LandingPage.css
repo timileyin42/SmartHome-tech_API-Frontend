@@ -1,0 +1,47 @@
+/* LandingPage.css */
+.LandingPage {
+  text-align: center;
+  padding: 50px;
+  background-image: url('../public/images/Dashboard.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.LandingPage h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.LandingPage p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.tabs a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs a:hover {
+  background-color: #0056b3;
+}
+

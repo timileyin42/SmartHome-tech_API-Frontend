@@ -1,0 +1,76 @@
+/* SmartDoor.css */
+
+.smart-door-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text for the title */
+}
+
+.status-display {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555; /* Medium gray for status text */
+}
+
+.error-message {
+  color: #e74c3c; /* Red for error messages */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: #2ecc71; /* Green for success messages */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* Three columns */
+  gap: 15px; /* Space between buttons */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+.action-button {
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3498db; /* Default blue color */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.action-button:active {
+  transform: scale(0.95); /* Slightly shrink button on click */
+}
+
+/* Additional colors for different actions */
+.action-button.lock {
+  background-color: #e74c3c; /* Red for lock */
+}
+
+.action-button.unlock {
+  background-color: #2ecc71; /* Green for unlock */
+}
+
+.action-button.busy {
+  background-color: #f39c12; /* Orange for busy */
+}
+
+

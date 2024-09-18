@@ -1,0 +1,62 @@
+/* TVControl.css */
+
+.tv-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 150px); /* Adjust size */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  width: 150px; /* Set equal width */
+  height: 150px; /* Set equal height to make it square */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Slightly rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+}
+
+.action-btn.active {
+  background-color: #0056b3;
+}
+
+.action-btn:disabled {
+  background-color: #cccccc;
+}
+
+.control-input {
+  margin-bottom: 15px;
+}
+
+.control-input label {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #cccccc;
+}
+

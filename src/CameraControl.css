@@ -1,0 +1,78 @@
+.camera-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.camera-control-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.action-button.active {
+  background-color: #218838;
+}
+
+.duration-input {
+  margin: 20px 0;
+}
+
+.duration-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.submit-button {
+  padding: 15px 30px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+

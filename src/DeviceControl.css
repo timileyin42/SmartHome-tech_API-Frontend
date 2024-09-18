@@ -1,0 +1,88 @@
+/* DeviceControl.css */
+
+.device-control-container {
+  padding: 20px;
+  background-image: url('../public/images/smarthome.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.device-form {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.device-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.device-form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.device-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.device-card h3 {
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.device-card p {
+  margin-bottom: 20px;
+}
+
+.device-card button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.on-btn {
+  background-color: #4caf50;
+}
+
+.off-btn {
+  background-color: #f44336;
+}
+
+.dim-btn {
+  background-color: #ff9800;
+}
+
+.increase-temp-btn, .decrease-temp-btn {
+  background-color: #03a9f4;
+}
+
+.delete-btn {
+  background-color: #e91e63;
+}
+
+.device-card button:hover {
+  opacity: 0.8;
+}
+
